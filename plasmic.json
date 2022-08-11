@@ -1,0 +1,82 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "moQ1NBF41CE4DHD4w3iQdW",
+      "projectApiToken": "7xMkq6gbT508bFPvDiyJuFWMGqz2nfmo6IXV2MHSwQufqq12EspG6C5FZViUnYBpEm2Jn20LIXCdgh3JnIbA",
+      "projectName": "Asalytics test",
+      "version": "latest",
+      "cssFilePath": "plasmic/asalytics_test/plasmic_asalytics_test.module.css",
+      "components": [
+        {
+          "id": "g9wbakSKyLDL",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "moQ1NBF41CE4DHD4w3iQdW",
+          "renderModuleFilePath": "plasmic/asalytics_test/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/asalytics_test/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "MXkX2Am0Rq",
+          "name": "Logo3Icon",
+          "moduleFilePath": "plasmic/asalytics_test/icons/PlasmicIcon__Logo3.tsx"
+        },
+        {
+          "id": "ndqZ8IgO27",
+          "name": "Ellipse9Icon",
+          "moduleFilePath": "plasmic/asalytics_test/icons/PlasmicIcon__Ellipse9.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "Ps1IIEzqwU",
+          "name": "bitcoin-ic 1",
+          "filePath": "plasmic/asalytics_test/images/bitcoinIc1.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "xrmmS7zRUJ4KL",
+        "name": "Screen",
+        "projectId": "moQ1NBF41CE4DHD4w3iQdW",
+        "contextFilePath": "plasmic/asalytics_test/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}

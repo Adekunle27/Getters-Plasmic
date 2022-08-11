@@ -1,0 +1,1582 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+.codingTest {
+  flex-direction: column;
+  background: rgba(241, 250, 245, 1);
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+  flex-shrink: 0;
+}
+.codingTest > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 42px);
+  height: calc(100% + 42px);
+}
+.codingTest > :global(.__wab_flex-container) > *,
+.codingTest > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.codingTest > :global(.__wab_flex-container) > picture > img,
+.codingTest
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 42px;
+}
+.header {
+  flex-direction: row;
+  width: 1440px;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 32px 64px;
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.headerLogo {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.headerLogo > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.headerLogo > :global(.__wab_flex-container) > *,
+.headerLogo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headerLogo > :global(.__wab_flex-container) > picture > img,
+.headerLogo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 30px;
+  height: 62.941px;
+  display: block;
+  flex-shrink: 0;
+}
+.text__cKngX {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 112px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.frame3 {
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.frame3 > :global(.__wab_flex-container) > *,
+.frame3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3 > :global(.__wab_flex-container) > picture > img,
+.frame3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 32px;
+}
+.analyzeButton {
+  flex-direction: column;
+  background: rgba(233, 233, 233, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+.analyzeButton > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.analyzeButton > :global(.__wab_flex-container) > *,
+.analyzeButton > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.analyzeButton > :global(.__wab_flex-container) > picture > img,
+.analyzeButton
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.text__uNxs2 {
+  display: block;
+  font-size: 16px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.analyzeButton2 {
+  flex-direction: column;
+  background: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+.analyzeButton2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.analyzeButton2 > :global(.__wab_flex-container) > *,
+.analyzeButton2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.analyzeButton2 > :global(.__wab_flex-container) > picture > img,
+.analyzeButton2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.text__rCrV5 {
+  display: block;
+  font-size: 16px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame199 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 408px;
+  padding-right: 408px;
+}
+.text__klVv {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.teaamSection {
+  flex-direction: column;
+  background: rgba(241, 250, 245, 1);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  overflow: hidden;
+  padding: 64px;
+}
+.teaamSection > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.teaamSection > :global(.__wab_flex-container) > *,
+.teaamSection > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.teaamSection > :global(.__wab_flex-container) > picture > img,
+.teaamSection
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.frame159 {
+  flex-direction: row;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame159 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.frame159 > :global(.__wab_flex-container) > *,
+.frame159 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame159 > :global(.__wab_flex-container) > picture > img,
+.frame159
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 32px;
+}
+.frame162 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame162 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame162 > :global(.__wab_flex-container) > *,
+.frame162 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame162 > :global(.__wab_flex-container) > picture > img,
+.frame162
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc1 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame4 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame4 > :global(.__wab_flex-container) > *,
+.frame4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame4 > :global(.__wab_flex-container) > picture > img,
+.frame4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__ix2Xq {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame200 {
+  background: rgba(110, 214, 144, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__zaY8H {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame168 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame168 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame168 > :global(.__wab_flex-container) > *,
+.frame168 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame168 > :global(.__wab_flex-container) > picture > img,
+.frame168
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup2 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc2 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame5 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame5 > :global(.__wab_flex-container) > *,
+.frame5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5 > :global(.__wab_flex-container) > picture > img,
+.frame5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__qlo6D {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame201 {
+  background: rgba(110, 214, 144, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__pcPe4 {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame169 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame169 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame169 > :global(.__wab_flex-container) > *,
+.frame169 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame169 > :global(.__wab_flex-container) > picture > img,
+.frame169
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup3 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc3 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame6 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame6 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame6 > :global(.__wab_flex-container) > *,
+.frame6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame6 > :global(.__wab_flex-container) > picture > img,
+.frame6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__cwEiV {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame202 {
+  background: rgba(110, 214, 144, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__wdPdo {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame170 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame170 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame170 > :global(.__wab_flex-container) > *,
+.frame170 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame170 > :global(.__wab_flex-container) > picture > img,
+.frame170
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup4 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc4 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame7 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame7 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame7 > :global(.__wab_flex-container) > *,
+.frame7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame7 > :global(.__wab_flex-container) > picture > img,
+.frame7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__jMyGi {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame203 {
+  background: rgba(110, 214, 144, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__gjjaC {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame161 {
+  flex-direction: row;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame161 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.frame161 > :global(.__wab_flex-container) > *,
+.frame161 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame161 > :global(.__wab_flex-container) > picture > img,
+.frame161
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 32px;
+}
+.frame163 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame163 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame163 > :global(.__wab_flex-container) > *,
+.frame163 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame163 > :global(.__wab_flex-container) > picture > img,
+.frame163
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup5 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc5 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame8 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame8 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame8 > :global(.__wab_flex-container) > *,
+.frame8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame8 > :global(.__wab_flex-container) > picture > img,
+.frame8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__vYlOh {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame204 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__q2Slh {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame171 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame171 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame171 > :global(.__wab_flex-container) > *,
+.frame171 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame171 > :global(.__wab_flex-container) > picture > img,
+.frame171
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup6 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc6 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame9 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame9 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame9 > :global(.__wab_flex-container) > *,
+.frame9 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame9 > :global(.__wab_flex-container) > picture > img,
+.frame9
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text___5T5Wg {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame205 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__f76A {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame172 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame172 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame172 > :global(.__wab_flex-container) > *,
+.frame172 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame172 > :global(.__wab_flex-container) > picture > img,
+.frame172
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup7 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc7 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame10 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame10 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame10 > :global(.__wab_flex-container) > *,
+.frame10 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame10 > :global(.__wab_flex-container) > picture > img,
+.frame10
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__mcFmZ {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame206 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text___90Ze7 {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame173 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame173 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame173 > :global(.__wab_flex-container) > *,
+.frame173 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame173 > :global(.__wab_flex-container) > picture > img,
+.frame173
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup8 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc8 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame11 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame11 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame11 > :global(.__wab_flex-container) > *,
+.frame11 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame11 > :global(.__wab_flex-container) > picture > img,
+.frame11
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__rO8I {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame207 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__laJx {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame164 {
+  flex-direction: row;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame164 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.frame164 > :global(.__wab_flex-container) > *,
+.frame164 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame164 > :global(.__wab_flex-container) > picture > img,
+.frame164
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 32px;
+}
+.frame174 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame174 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame174 > :global(.__wab_flex-container) > *,
+.frame174 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame174 > :global(.__wab_flex-container) > picture > img,
+.frame174
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup9 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc9 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame12 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame12 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame12 > :global(.__wab_flex-container) > *,
+.frame12 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame12 > :global(.__wab_flex-container) > picture > img,
+.frame12
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__bGYod {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame208 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__mctwu {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame175 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame175 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame175 > :global(.__wab_flex-container) > *,
+.frame175 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame175 > :global(.__wab_flex-container) > picture > img,
+.frame175
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup10 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc10 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame13 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame13 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame13 > :global(.__wab_flex-container) > *,
+.frame13 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame13 > :global(.__wab_flex-container) > picture > img,
+.frame13
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text___6U8ME {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame209 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text__zKRxY {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame176 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame176 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame176 > :global(.__wab_flex-container) > *,
+.frame176 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame176 > :global(.__wab_flex-container) > picture > img,
+.frame176
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup11 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc11 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame14 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame14 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame14 > :global(.__wab_flex-container) > *,
+.frame14 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame14 > :global(.__wab_flex-container) > picture > img,
+.frame14
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__pwZeC {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame210 {
+  background: rgba(187, 49, 49, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text___0FdB2 {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame177 {
+  flex-direction: column;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 10px;
+}
+.frame177 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame177 > :global(.__wab_flex-container) > *,
+.frame177 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame177 > :global(.__wab_flex-container) > picture > img,
+.frame177
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.maskGroup12 {
+  width: 44px;
+  height: 44px;
+  display: block;
+  position: relative;
+  -webkit-mask-image: var(--image-ndqZ8IgO27);
+  -webkit-mask-size: 44px 44px;
+  -webkit-mask-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.bitcoinIc12 {
+  background: url("./images/bitcoinIc1.png") -15px 0px / 57px 57px no-repeat;
+  transform: translate(-0.5px, 0.43700000000000117px);
+  width: 30px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+}
+.frame15 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame15 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame15 > :global(.__wab_flex-container) > *,
+.frame15 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame15 > :global(.__wab_flex-container) > picture > img,
+.frame15
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__ap98A {
+  display: block;
+  font-size: 24px;
+  font-family: "Readex Pro";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.frame211 {
+  background: rgba(110, 214, 144, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 8px;
+}
+.text___1HHvh {
+  display: block;
+  font-size: 12px;
+  font-family: "Readex Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
